@@ -1,0 +1,5 @@
+﻿<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1'>
+  <datasources><datasource caption='Fact_Scorecard_WoE_PSI_KS' inline='true' name='federated.scoring_fico' version='18.1'><connection class='federated'><named-connections><named-connection caption='Fact_Scorecard_WoE_PSI_KS' name='textscan.scoring'><connection class='textscan' directory='../datasets_estrella' filename='Fact_Scorecard_WoE_PSI_KS.csv' /></named-connection></named-connections></connection></datasource></datasources>
+  <worksheets><worksheet name='1_Curva_Calibracion_Score_vs_PD'><table /></worksheet><worksheet name='2_Poder_Discriminante_KS_ROC_IV'><table /></worksheet><worksheet name='3_Monitoreo_Drift_PSI_Cortes_Decision'><table /></worksheet></worksheets>
+</workbook>

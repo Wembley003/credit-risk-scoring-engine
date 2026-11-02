@@ -1,0 +1,4 @@
+﻿Total Solicitudes Evaluadas = SUM(Fact_Scorecard_WoE_PSI_KS[Solicitudes_Evaluadas])
+PD Promedio Ponderada Scorecard = DIVIDE(SUMX(Fact_Scorecard_WoE_PSI_KS, Fact_Scorecard_WoE_PSI_KS[Solicitudes_Evaluadas] * Fact_Scorecard_WoE_PSI_KS[PD_Calibrada_Logit]), [Total Solicitudes Evaluadas], 0)
+Estadistico KS Maximo = MAX(Fact_Scorecard_WoE_PSI_KS[KS_Separacion_Acumulada])
+PSI Total Scorecard = SUM(Fact_Scorecard_WoE_PSI_KS[PSI_Banda])

@@ -1,0 +1,6 @@
+﻿Banda_Score_FICO,Rango_Puntos,Decision_Motor,Solicitudes_Evaluadas,Tasa_Aprobacion_Pct,PD_Calibrada_Logit,KS_Separacion_Acumulada,PSI_Banda,IV_Information_Value_Total,DTI_Promedio_Pct
+01_Subprime_Critico,300-549,Rechazo_Automatico,1420,0.000,0.2840,0.312,0.018,0.482,0.54
+02_Subprime_Revision,550-619,Revision_Manual_Comite,2180,0.245,0.1180,0.448,0.024,0.482,0.41
+03_Near_Prime,620-679,Aprobacion_Condicionada,3640,0.680,0.0490,0.410,0.015,0.482,0.33
+04_Prime,680-739,Aprobacion_Automatica,4890,0.925,0.0185,0.265,0.011,0.482,0.26
+05_Super_Prime,740-850,Aprobacion_Automatica_Preferencial,3120,0.988,0.0045,0.095,0.009,0.482,0.19
